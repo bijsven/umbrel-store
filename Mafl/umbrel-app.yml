@@ -1,0 +1,39 @@
+manifestVersion: 1
+id: mafl-dashboard
+name: Mafl
+tagline: Intuitive service for organizing your homepage
+icon: https://raw.githubusercontent.com/hywax/mafl/main/docs/public/logotype.svg
+category: Dashboard
+version: "1.0.0"
+port: 9935
+description: >-
+  Mafl is an intuitive service for organizing your homepage. Customize Mafl to your individual needs and work even more efficiently!
+  🎯 Features
+  🔐 Privacy. All requests to third-party services occur in backend.
+  ⚡ Real-time. Interactive cards with extra information.
+  🌎 Multi-language. Supports multiple languages.
+  🎨 Themes. Customize the look to your liking.
+  🗂️ Grouping. Create custom service groups.
+  🏷️ Tags. Add tags to your services.
+  👌 Easy setup. A few lines of yaml and your homepage is ready to go.
+  🚀 Fast. Everything is fast and free of hang-ups.
+  🐳 Docker. Optimized docker images for popular platforms.
+  ✨ Free. Mafl is completely free and open source.
+  📲 PWA. Installable application.
+  🚀 Getting started
+
+developer: Dale Davies
+website: https://umbrel.com
+submitter: Sven
+submission: https://github.com/bijsven/umbrel-store
+repo: https://github.com/hywax/mafl
+support: https://github.com/hywax/mafl/issues
+gallery:
+  - https://raw.githubusercontent.com/hywax/mafl/main/docs/public/cover.png
+  - https://raw.githubusercontent.com/hywax/mafl/main/docs/public/themes.png
+releaseNotes: >-
+  Added to custom store
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

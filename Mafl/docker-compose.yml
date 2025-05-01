@@ -1,0 +1,16 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      # The format here is: <app-id>_<docker-service-name>_1
+      APP_HOST: mafl-dashboard_server_1
+      APP_PORT: 9935
+  
+  server:
+    image: hywax/mafl
+    restart: unless-stopped
+    ports:
+      - '9935:3000'
+    volumes:
+      - ./mafl/:/app/data/
